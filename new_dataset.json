@@ -1,0 +1,471 @@
+{ "intents" : [
+{
+"tag":"greet_1",
+"question" : "hi",
+"answer" : "hello",
+"context" : [""]
+},
+{
+"tag":"greet_2",
+"question" : "hello",
+"answer" : "hi",
+"context" : [""]
+},
+{
+"tag":"greet_3",
+"question" : "how are you",
+"answer" : "I am fine . Stay home and be safe from COVID virus",
+"context" : [""]
+},
+{
+"tag":"greet_4",
+"question" : "hola",
+"answer" : "hi",
+"context" : [""]
+},
+{
+"tag":"greet_5",
+"question" : "hey",
+"answer" : "hey",
+"context" : [""]
+},
+{
+"tag":"goodbye_1",
+"question" : "Bye",
+"answer" : "Bye and have a nice day",
+"context" : [""]
+},
+{
+"tag":"goodbye_2",
+"question" : "See you later",
+"answer" : "Bye! Come back again soon.",
+"context" : [""]
+},
+{
+"tag":"goodbye_3",
+"question" : "Nice chatting to you, bye",
+"answer" : "See you!",
+"context" : [""]
+},
+{
+"tag":"goodbye_4",
+"question" : "Till next time",
+"answer" : "Bye",
+"context" : [""]
+},
+{
+"tag":"thanks_1",
+"question" : "Thanks",
+"answer" : "Happy to help!",
+"context" : [""]
+},
+{
+"tag":"thanks_2",
+"question" : "Thank You !",
+"answer" : "My pleasure",
+"context" : [""]
+},
+{
+"tag":"thanks_3",
+"question" : "That's helpful",
+"answer" : "Any time !",
+"context" : [""]
+},
+{
+"tag":"thanks_4",
+"question" : "Thanks for helping me",
+"answer" : "My pleasure!",
+"context" : [""]
+},
+{
+"tag":"thanks_5",
+"question" : "Awesome, thanks",
+"answer" : "Any time!",
+"context" : [""]
+},
+{
+    "tag":"help_1",
+    "question" : "What support is offered",
+    "answer" : "I will solve the queries regarding the COVID-19",
+    "context" : [""]
+},
+{
+    "tag":"help_2",
+    "question" : "How you can be helpful?",
+    "answer" : "I will answer you the question regarding the covid 19",
+    "context" : [""]
+},
+{
+    "tag":"help_3",
+    "question" : "What help you provide?",
+    "answer" : "I will solve the queries regarding the COVID-19",
+    "context" : [""]
+},
+{
+    "tag":"help_4",
+    "question" : "What you can do?",
+    "answer" : "I will answer you the question regarding the covid 19",
+    "context" : [""]
+},
+{
+"tag":"help_5",
+"question" : "How you could help me?",
+"answer" : "I will solve the queries regarding the COVID-19",
+"context" : [""]
+},
+{
+"tag" : "general_questions_1",
+"question":"What is a coronavirus?",
+"answer":"Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).",
+"context":[""]
+}, 
+{
+"tag" : "general_questions_2",
+"question":"What is a novel coronavirus?",
+"answer":"A novel coronavirus (CoV) is a new strain of coronavirus that has not been previously identified in humans.",
+"context":[""]
+},
+{
+"tag" : "general_questions_3",
+"question":"Can humans become infected with a novel coronavirus of animal source?",
+"answer":"Detailed investigations found that SARS-CoV was transmitted from civet cats to humans in China in 2002 and MERS-CoV from dromedary camels to humans in Saudi Arabia in 2012. Several known coronaviruses are circulating in animals that have not yet infected humans. As surveillance improves around the world, more coronaviruses are likely to be identified.",
+"context":[""]
+},
+{
+"tag" : "general_questions_4",
+"question":"What are the symptoms of someone infected with a coronavirus?",
+"answer":"It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.",
+"context":[""]
+},
+{
+"tag" : "general_questions_5",
+"question":"Can coronaviruses be transmitted from person to person?",
+"answer":"Yes, some coronaviruses can be transmitted from person to person, usually after close contact with an infected patient, for example, in a household workplace, or health care centre.",
+"context":[""]
+},
+{
+"tag" : "general_questions_6",
+"question":"Is there a vaccine for a novel coronavirus?",
+"answer":"When a disease is new, there is no vaccine until one is developed. It can take a number of years for a new vaccine to be developed.",
+"context":[""]
+},
+{
+"tag" : "general_questions_7",
+"question":"Is there a treatment for a novel coronavirus?",
+"answer":"There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated and therefore treatment based on the patient�s clinical condition. Moreover, supportive care for infected persons can be highly effective.",
+"context":[""]
+},
+{
+"tag" : "general_questions_8",
+"question":"What can I do to protect myself?",
+"answer":"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices �and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing.",
+"context":[""]
+},
+{
+"tag" : "general_questions_9",
+"question":"Are health workers at risk from a novel coronavirus?",
+"answer":"Yes, they can be, as health care workers come into contact with patients more often than the general public WHO recommends that health care workers consistently apply appropriate",
+"context":[""]
+},
+{
+"tag" : "general_questions_10",
+"question":"What WHO recommendations for countries?",
+"answer":"WHO encourages all countries to enhance their surveillance for severe acute respiratory infections (SARI), to carefully review any unusual patterns of SARI or pneumonia cases and to notify WHO of any suspected or confirmed case of infection with novel coronavirus.",
+"context":[""]
+},
+{
+"tag" : "general_questions_11",
+"question":"Where can I find more information about known coronaviruses?",
+"answer":"Countries are encouraged to continue strengthening their preparedness for health emergencies in line with the International Health Regulations (2005).",
+"context":[""]
+},
+{
+"tag" : "prevent_1",
+"question":"How do people get infected with COVID-19?",
+"answer":"The COVID-19 virus is transmitted mainly between people via respiratory droplets and this occurs when a person is in close contact (within 1 metre) with an infected person and exposure to potentially infective respiratory droplets occurs, for example, through coughing or sneezing.",
+"context":[""]
+},
+{
+"tag" : "prevent_2",
+"question":"Are only people who have symptoms infectious?",
+"answer":"Transmission can also occur indirectly by contact with surfaces in the immediate environment or with objects used on or by the infected person.",
+"context":[""]
+},
+{
+"tag" : "prevent_3",
+"question":"Why should I wear a mask?",
+"answer":"COVID-19 infection mainly occurs from people when they have symptoms. It can also occur just before patients develop symptoms (pre-symptomatic) or from people not showing any symptoms (asymptomatic).",
+"context":[""]
+},
+{
+"tag" : "prevent_4",
+"question":"When should I wear a mask?",
+"answer":"Wearing a mask protects us by reducing the chance of disease transmission from sick, pre-symptomatic and asymptomatic infected persons to others.",
+"context":[""]
+},
+{
+"tag" : "prevent_5",
+"question":"What kind of mask should I wear?",
+"answer":"Masks should be worn in places where there is limited opportunity for physical distancing, or places with poor ventilation and little air flow. This applies to social and mass gatherings, public transportation, offices, grocery stores, schools, mosques, and churches and other places.",
+"context":[""]
+},
+{
+"tag" : "prevent_6",
+"question":"Will wearing a mask protect me from COVID-19?",
+"answer":"The public should wear fabric masks.",
+"context":[""]
+},
+{
+"tag" : "prevent_7",
+"question":"What if I am wearing a mask in a crowded place and others are not, am I protected in this situation?",
+"answer":"The following groups should wear medical (surgical) masks",
+"context":[""]
+},
+{
+"tag" : "prevent_8",
+"question":"How do I put on, use, take off and dispose of a mask safely?",
+"answer":"Health workers",
+"context":[""]
+},
+{
+"tag" : "prevent_9",
+"question":"Can wearing a mask have disadvantages?",
+"answer":"People who have tested positive for COVID-19",
+"context":[""]
+},
+{
+"tag" : "vaccine_1",
+"question":"There are several different kinds of vaccines that are now being used by countries for their populations. In general, what are the differences between these vaccines?",
+"answer":"The vaccines for COVID-19 differ in the way they are made. All these vaccines protect against COVID-19, but they work differently. Some use a whole killed virus; some just parts of the virus; some use other harmless viruses as transport, like a trojan horse, and some are pieces of genetic material that give instructions to make bits and pieces of the virus to trigger immunity. Vaccines also differ in how they are stored. Some need to be stored at very, very cold temperatures. These kinds of temperatures cannot be organized everywhere, so that has consequences in terms of where we can use them and where we cannot.",
+"context":[""]
+},
+{
+"tag" : "vaccine_2",
+"question":"What does it mean when we say that a vaccine has been given emergency use authorization by WHO?",
+"answer":"Vaccines that are authorized for emergency use by WHO do so after going through an extensive review. This provides a stamp of quality, safety, efficacy, and manufacturing quality. To do that, we work closely with the European Medicines Agency and other national regulatory agencies. All vaccine producers or manufactures are expected to submit or share their clinical data with WHO experts and national regulatory agencies for review and recommendations.",
+"context":[""]
+},
+{
+"tag" : "vaccine_3",
+"question":"The speed of vaccine development has been extraordinary. How can we ensure that given such a short timeframe for development, the vaccines are not just effective, but also safe?",
+"answer":"It has been truly extraordinary, and we are also benefiting from the experience that we have acquired with other diseases, including Ebola. This has made it possible to develop these vaccines and fully evaluate them in clinical trials much faster than before. Why is that? Essentially for one reason. We were conducting these trials in the middle of a pandemic, with many people infected. This gave us a lot of opportunities to see if the vaccine works or not and the opportunity to conduct that assessment faster. Another important reason is the investment made by governments and the private sector to develop and produce these vaccines.",
+"context":[""]
+},
+{
+"tag" : "vaccine_4",
+"question":"What people are worried about though are the side-effects. Was there enough follow up on the vaccines?",
+"answer":"Yes, absolutely. Side-effects from vaccines happen in the very first weeks after the vaccine. Not many months after. So for these trials, the follow-up included the weeks during which side-effects could have occurred. Long-term follow-up for those people vaccinated is also critical, and local health authorities, in collaboration with WHO and other partners, are committed to documenting any potential side-effects and the duration of immunity against the virus.",
+"context":[""]
+},
+{
+"tag" : "vaccine_5",
+"question":"Many countries are vaccinating their populations with vaccines other than the one authorized by WHO. What does this mean?",
+"answer":"Each country can choose vaccines for its own population, and they can do this on the basis of the information that they have. We do not believe that this is a source of concern. If a country makes the decision to introduce a vaccine, it means they have done so on the basis of a dossier that they have reviewed.� In the case of WHO, we take more time, because we have to take the responsibility to do this not just for one country, but for many countries. So, the level of scrutiny and documentation has to be at the highest level.",
+"context":[""]
+},
+{
+"tag" : "vaccine_6",
+"question":"How exactly do vaccines work?",
+"answer":"A vaccine helps a person build up immunity against a germ to protect themselves against an infectious disease. It works by injecting something that looks very much like a germ that stimulates the immune system to produce an immune response. This is what protects a person from a future infection if they ever come across the real infection. That is the way that it works for most diseases and the way that it works for COVID-19. When we are vaccinated, we are not just protecting ourselves, but also those around us. Each person vaccinated is one person that the virus cannot use to spread within the population.",
+"context":[""]
+},
+{
+"tag" : "vaccine_7",
+"question":"Do I need the vaccine if I have already had COVID-19?",
+"answer":"The first question should be: did you have COVID-19 for sure? If the disease was not confirmed by a test, it�s hard to say. For people who had COVID-19 for sure, there are no reasons to exclude them from vaccination. However, in view of short supplies of vaccine it makes sense to prioritize people who did not have COVID-19 before. COVID-19 does give immunity for a few months.",
+"context":[""]
+},
+{
+"tag" : "vaccine_8",
+"question":"Will the vaccines currently approved by WHO or national regulatory authorities protect us against the new variants?",
+"answer":"The new variants are indeed a challenge, and mutation of the virus was expected considering the vast spread of this virus to the world. However, we can work on solutions. The first news that we received on the efficacy of the vaccine against most variants is mostly reassuring; but this can evolve, and we are keeping our eyes open. Faced with variants, we will do three things. First, we will conduct studies to understand how vaccine works against variants. That will tell us if more action is needed. Second, we can work on giving people more vaccine doses, like boosters. Third, we could also work on adjusting some of these vaccine preparations, just like we do for the flu every year. And this can be done.",
+"context":[""]
+},
+{
+"tag" : "vaccine_9",
+"question":"Many people in our Region live in low- or middle-income countries or are affected by political conflict and other emergencies. What is WHO doing to ensure that COVID-19 vaccines will be allocated fairly to all people, even those who may not be able to afford it, or who are hard to reach?",
+"answer":"WHO joined forces with other partners to put together the COVAX Facility. COVAX is working to accelerate the development and manufacturing of COVID-19 vaccines. COVAX will also work to ensure that there is fair and equitable access to these vaccines across the world. The COVAX Facility will give countries that could not afford them otherwise access to the world�s largest and most diverse portfolio of vaccine candidates. For populations living in areas affected by conflicts or emergencies, for refugees, for migrants, we need to make sure that the vaccination plans include everyone; we need to make sure that these plans are effectively put in place, and if they are not, we need to find alternate solutions to make sure that no one is left behind.",
+"context":[""]
+},
+{
+"tag" : "vaccine_10",
+"question":"In the context of a pandemic such as COVID-19, does WHO recommend mandatory vaccination for COVID-19?",
+"answer":"WHO provides guidance and recommendations on whom to vaccinate or prioritize, and it is up to countries to decide if vaccination is mandatory or not. However, generally speaking, WHO prefers to convince people to take vaccines voluntarily by understanding that vaccines can protect them against disease rather than making them mandatory.",
+"context":[""]
+},
+{
+"tag" : "vaccine_11",
+"question":"As the vaccines start to be used, how quickly will we be able to resume normal life?",
+"answer":"The vaccines are a new tool that we now have to make an impact on the pandemic. However, they will not solve everything immediately or put an end to the pandemic. As the pandemic continues, we still need to take all necessary measures to prevent the virus from spreading and causing more deaths. We need to follow through and to adopt a �do-it-all� approach, we need to continue to practise physical distancing, staying home if needed, and following all the prevention measures that we know have been proven to work and keep us safe. At the same time, we need to advocate and increase the number of people receiving the vaccine to increase coverage.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_1",
+"question":"COVID-19 vaccines were developed in a very short timeframe. How can we be sure that they are safe?",
+"answer":"The process to develop and approve COVID-19 vaccines was accelerated while maintaining the highest standards. Manufacturers and researchers benefited from the experience acquired over decades with developing vaccines for other diseases, including Ebola. This made it possible to develop COVID-19 vaccines and fully evaluate them in clinical trials much faster than before.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_2",
+"question":"How does the approval process for COVID-19 vaccines work?",
+"answer":"Unprecedented investments made by governments and the private sector allowed the vaccines to be developed and produced in less than a year after the pandemic was announced.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_3",
+"question":"How can we be sure that vaccines will not put us at risk in terms of side effects and severe adverse reactions?",
+"answer":"Like all vaccines, COVID-19 vaccines go through a rigorous, multi-stage testing process, including large (phase III) trials that involve tens of thousands of people.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_4",
+"question":"How do we know if the mRNA vaccines that are based on new technology are safe?",
+"answer":"An external panel of experts convened by WHO analyzes the results from clinical trials, along with evidence on the disease, age groups affected, risk factors for disease, and other information. The panel recommends whether and how the vaccines should be used.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_5",
+"question":"What does it mean when we say that a vaccine has been given emergency use authorization by WHO?",
+"answer":"Once a clinical trial indicates that a COVID-19 vaccine is safe and effective, a series of independent reviews of the efficacy and safety evidence is required. Part of this process also involves a review of all the safety evidence by the Global Advisory Committee on Vaccine Safety.",
+"context":[""]
+},
+{
+"tag" : "vaccine_safety_6",
+"question":"Should everyone get vaccinated against COVID-19?",
+"answer":"Because the clinical trials took place in the middle of the pandemic with many people getting exposed, it was easier for clinical trials to see if the vaccines worked or not. These trials, which include some groups at high risk for COVID-19, were specifically designed to identify any common side effects or other safety concerns.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_1",
+"question":"Can someone vaccinated against COVID-19 still get infected?",
+"answer":"Side-effects from vaccines happen in the very first days after taking the vaccine. During the vaccine trials, follow-up of individuals included the time during which side-effects could have occurred, with a large margin to make sure al side effects were captured.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_2",
+"question":"What are the benefits of getting vaccinated?",
+"answer":"The COVID-19 mRNA vaccine technology has been rigorously assessed for safety. Clinical trials have indicated that mRNA vaccines provide a long-lasting immune response. mRNA vaccine technology has been studied for several decades, including in the contexts of Zika, rabies, and influenza vaccines. mRNA vaccines are not live virus vaccines and do not interfere with human DNA.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_3",
+"question":"Do I need the vaccine if I have already had COVID-19?",
+"answer":"WHO works to ensure that everyone, everywhere is protected by safe and effective vaccines. To do this, we help countries set up rigorous safety systems for vaccines and apply strict international standards to regulate them.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_4",
+"question":"What are the side effects of COVID-19 vaccines?",
+"answer":"Vaccines that are authorized for emergency use by WHO do so after going through an extensive review. This provides a stamp of quality, safety, efficacy, and manufacturing quality. To do that, we work closely with the European Medicines Agency and other national regulatory agencies.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_5",
+"question":"Should everyone get vaccinated against COVID-19?",
+"answer":"Yes, because vaccines prevent severe COVID-19 infection and death. Vaccination of large numbers of people is important if we want to get out of the current pandemic. Everyone should get vaccinated and encourage others to get vaccinated according to each country�s vaccination plan and recommended age limit for the vaccine. However, because there is not enough vaccine available early on, there is a prioritization scheme so that persons who need it the most can get the vaccine first.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_6",
+"question":"Who should take the influenza vaccine this year?",
+"answer":"With the persistence of the COVID-19 pandemic and concerns that influenza infections may increase the burden on health care systems, WHO recommends that health care workers and older adults be given top priority for the influenza vaccine this year, especially where there is limited supply. Health care workers are at high risk of getting infected through their regular contact with patients and the influenza vaccine will contribute to minimizing absenteeism due to influenza and decrease disruption to the workforce.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_7",
+"question":"How effective is the influenza vaccine?",
+"answer":"Older adults are at much greater risk of severe disease and death from influenza when compared to younger adults, so the vaccine will help decrease the risks for that population.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_8",
+"question":"Do people need to be vaccinated against influenza every winter?",
+"answer":"If the influenza vaccine supply still allows for others to get vaccinated, then individuals with underlying health conditions, pregnant women and children should be prioritized next in no particular order.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_9",
+"question":"Is the influenza vaccine safe?",
+"answer":"The influenza vaccine is the best tool we have for preventing influenza and reducing the risk of serious complications and even death. The effectiveness of the vaccine can vary from one year to another, depending on the types of influenza viruses circulating and how well they match with the vaccine. It also depends on the health status and age of the person vaccinated, as well as time since vaccination. On average, the vaccine prevents around 60% of infections in healthy adults aged 18�64 years. Influenza vaccines become effective about 14 days after vaccination.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_10",
+"question":"Does the influenza vaccine decrease immunity against other diseases like COVID-19?",
+"answer":"Yes. Influenza viruses constantly change and different strains can circulate each year. In addition, people�s immunity against influenza decreases over time. Seasonal influenza vaccines are therefore updated to reflect the most commonly circulating strains each year in order to provide the people who take them the highest possible immunity against these strains.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_11",
+"question":"Does the influenza vaccine protect against COVID-19?",
+"answer":"Yes. Seasonal influenza vaccines have been in use for more than 50 years. They have been administered to millions of people and have a good safety record. Every year, national medicines regulatory authorities carefully examine each influenza vaccine before it is licensed. Systems are in place to monitor and investigate any reports of adverse events following influenza immunization.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_12",
+"question":"If I get the influenza vaccine, can I still get the COVID-19 vaccine when it is ready?",
+"answer":"No. The purpose of any vaccine is to train the immune system on how to respond if it encounters the real disease in the future. This training does not affect the immune system against other diseases but rather strengthens it against the target disease. This immunity may last for a short period of time or for many years depending on the type of disease and type of vaccine. The influenza vaccine is considered good for one year, after which immunity against the disease decreases.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_13",
+"question":"Should I take the influenza vaccine if I am showing symptoms of COVID-19, or if I have had COVID-19?",
+"answer":"No, because influenza and COVID-19 are two different diseases. But because both respiratory diseases can impact the health of those infected in severe ways, getting immunized against influenza can decrease the impact of this disease on someone who may already be struggling with COVID-19. It is better for patients and health systems to be dealing with one respiratory illness instead of two.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_14",
+"question":"If I wasn't vaccinated with the influenza vaccine before, would it be safe to take the influenza vaccine during the pandemic?",
+"answer":"Currently available information indicates that an individual vaccinated against influenza should be able to be vaccinated against COVID-19 whenever such a vaccine is approved. There are currently many COVID-19 vaccines in clinical trials around the world that aim to show if any of the vaccines are both safe and effective against COVID-19. If any of these vaccines gets approved, it will still be many months before everyone can get the new COVID-19 vaccine. In the meantime, the best way to decrease the possibility of severe respiratory illness during the cocirculation of the viruses that cause COVID-19 and influenza is to get the already available influenza vaccine. WHO advises that health care workers and older adults be prioritized for the influenza vaccine where the number of doses are limited.",
+"context":[""]
+},
+{
+"tag" : "why_vaccine_15",
+"question":"What can I do if the influenza vaccine is not available where I live?",
+"answer":"There are no known medical contraindications to vaccinating persons who have COVID-19. However, to minimize risk of COVID-19 transmission when taking the vaccine, individuals with suspected or confirmed COVID-19 should be isolated and cared for until they are no longer infectious since the act of seeking immunization may increase the spreading of the infection to others. For that reason, these individuals should defer vaccination until they are released from isolation. Afterwards, it is advised that they take the influenza vaccine in order to decrease the possibility of severe disease from influenza.",
+"context":[""]
+},
+{
+"tag" : "symptoms_1",
+"question": "what are the symptoms of corona virus",
+"answer" : "Fever or chills , Cough , Shortness of breath or difficulty breathing , Fatigue , Muscle or body aches , Headache, New loss of taste or smell , Sore throat , Congestion or runny nose, Nausea or vomiting , Diarrhea",
+"context": [""]
+},
+{
+"tag" : "symptoms_2",
+"question": "what are the symptoms of COVID 19",
+"answer" : "Fever or chills , Cough , Shortness of breath or difficulty breathing , Fatigue , Muscle or body aches , Headache, New loss of taste or smell , Sore throat , Congestion or runny nose, Nausea or vomiting , Diarrhea",
+"context": [""]
+},
+{
+"tag" : "full_name_1",
+"question" : "What is the name of Covid 19",
+"answer" : "SARS-CoV-2",
+"context" : [""]
+},
+{
+"tag" : "full_name_1",
+"question" : "What is the name of corona virus",
+"answer" : "SARS-CoV-2",
+"context" : [""]
+},
+{
+"tag" : "origin",
+"question" : "where did corona virus originated ?",
+"answer" : "Wuhan, china",
+"context" : [""]
+},
+{
+"tag" : "Vaccine_company",
+"question" : "what are various vaccine for corona virus ?",
+"answer" : "Covishield , Covaxin , Sputnik-V , Pfizer , J&J ",
+"context" : [""]
+},
+{
+"tag" : "Vaccine_company_1",
+"question" : "Covishield",
+"answer" : "Covishield , Covaxin , Sputnik-V , Pfizer , J&J ",
+"context" : [""]
+}
+]
+}

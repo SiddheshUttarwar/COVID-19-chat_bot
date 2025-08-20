@@ -30,3 +30,9 @@ Follow these steps to set up the chatbot locally:
 ```bash
 git clone https://github.com/SiddheshUttarwar/COVID-19-chat_bot.git
 cd COVID-19-chat_bot
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+pip install -r requirements.txt
+python app.py
+
